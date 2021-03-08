@@ -1,0 +1,110 @@
+.contact_main{
+    padding: 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact_wrapper{
+    
+    
+    grid-gap: 20px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  
+    margin-top: 20px;
+    flex-wrap: wrap-reverse;
+}
+.contact_detail{
+    flex:0.5;
+    display:flex;
+    flex-direction: column;
+}
+.contact_side_image{
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    display:flex;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+.email .left img {
+    border-radius: 10px;
+}
+
+.phone{
+    display:flex;
+    font-size: 30px;
+    margin: 10px;
+
+}
+.phone .left img {
+    border-radius: 10px;
+}
+.contact_github{
+    display:flex;
+    font-size: 30px;
+    margin: 10px;
+
+}
+.contact_gitlab{
+    display:flex;
+    font-size: 30px;
+    margin: 10px;
+
+}
+.contact_linkedin{
+    display:flex;
+    font-size: 30px;
+    margin: 10px;
+
+}
+.twitter{
+    display:flex;
+    font-size: 30px;
+    margin:10px
+}
+.contact_detail div a{
+    text-decoration: none;
+    color: #551A8B;
+}
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+  }
+
+@media screen and (max-width: 1100px) {
+.contact_main {
+    padding: 30px;
+}
+
+.contact_wrapper {
+    grid-template-columns: 1fr;
+}
+.column_left h1 {
+    font-size: 70px;
+}
+}
+@media screen and (max-width: 500px) {
+
+.contact_main {
+    margin-top: 10px;
+}
+.contact_detail {
+    margin-top: 20px;
+    flex: 1;
+    
+}
+.contact_wrapper {
+    grid-template-rows: 600px;
+}
+.column_left h1 {
+    font-size: 32px;
+}
+}

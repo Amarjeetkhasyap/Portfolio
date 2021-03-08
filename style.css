@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: Tomatoes;
+  src: url(./Tomatoes.ttf);
+}
+
+body {
+  background: #ffff;
+  color: black;
+
+  /* padding: 20px; */
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  height: 80px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.logo {
+  flex-grow: 0.4;
+}
+.logo-name {
+  font-family: "Tomatoes";
+  font-weight: bold;
+  padding: 0 50px;
+  font-size: 25px;
+  color: rgb(105, 150, 101);
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 0.5;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar div {
+  padding: 10px;
+}
+.home {
+  background: #ffff;
+  padding: 0 50px;
+  color: rgb(10, 10, 10);
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.wrapper {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 820px; */
+  margin-top: 20px;
+  flex-wrap: wrap-reverse;
+}
+.column_left {
+  flex: 0.5;
+}
+.column_right {
+  flex: 0.5;
+}
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social-media {
+  margin: 20px 30px;
+}
+.column_left h1 {
+  font-size: 60px;
+  margin-top: 10px;
+}
+.column_left p {
+  font-size: 20px;
+  line-height: 2.3;
+}
+.column_left .office{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  
+}
+
+.resume {
+  width: 200px;
+  text-decoration: none;
+  background: rgb(105, 150, 101);
+  color: black;
+  padding: 15px;
+  border-radius: 50px;
+}
+.main-button {
+  color: white;
+  text-decoration: none;
+}
+.column_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 350px;
+  width: 350px;
+  object-fit: contain;
+}
+.github {
+  padding-right: 20px;
+  font-size: 40px;
+}
+.linkedin {
+  padding: 20px;
+  font-size: 40px;
+}
+footer {
+  box-shadow: rgb(0 0 0 / 20%) -1px -2px 4px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.footer {
+  padding-right: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .home {
+    padding: 30px;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .column_left h1 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .logo {
+    display: none;
+  }
+  .home {
+    margin-top: 10px;
+  }
+  .column_left {
+    margin-top: 20px;
+    flex: 1;
+  }
+  .wrapper {
+    grid-template-rows: 600px;
+  }
+  .column_left h1 {
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Skill section*/
+.iconDetails {
+  margin-left: 2%;
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+
+.container2 {
+  width: 270px;
+  height: auto;
+  padding: 1%;
+  float: left;
+}
+h4 {
+  margin: 0;
+}
+.left {
+  float: left;
+  width: 45px;
+}
+.right {
+  float: left;
+  margin: 0 0 0 5px;
+  width: 215px;
+}
+
+.skill-set {
+  padding: 50px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-set-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.technology-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.python {
+  display: flex;
+}
+.ruby {
+  display: flex;
+}
+.sql {
+  display: flex;
+}
+.html {
+  display: flex;
+}
+.css {
+  display: flex;
+}
+.linux {
+  display: flex;
+}
+.pandas {
+  display: flex;
+}
+.numpy {
+  display: flex;
+}
+.laptop-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.laptop {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.technology-stack div div h4 {
+  font-size: 20px;
+}
+
+
