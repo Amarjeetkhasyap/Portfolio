@@ -167,6 +167,27 @@ footer {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Skill section*/
 .iconDetails {
   margin-left: 2%;
@@ -217,36 +238,8 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 50px;
 }
-.python {
-  display: flex;
-}
-.ruby {
-  display: flex;
-}
-.sql {
-  display: flex;
-}
-.html {
-  display: flex;
-}
-.css {
-  display: flex;
-}
-.linux {
-  display: flex;
-}
-.pandas {
-  display: flex;
-}
-.numpy {
-  display: flex;
-}
-/* .laptop-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+
+
 .laptop {
   width: 100%;
   height: 100%;
